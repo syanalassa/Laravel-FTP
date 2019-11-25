@@ -1,7 +1,7 @@
 <?php namespace Anchu\Ftp;
 
 class FtpManager {
-
+    use Illuminate\Support\Arr;
     /**
      * The application instance.
      *
